@@ -13,7 +13,7 @@ const TodoPage = () => {
   }, []);
 
   if (isLoading) {
-    return <>loading....</>;
+    return <>loading...</>;
   }
 
   return <>{data?.map((data) => data.title)}</>;
